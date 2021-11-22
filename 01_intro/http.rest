@@ -1,0 +1,18 @@
+
+# GET http://localhost:3000
+
+
+# GET http://localhost:3000/products
+
+
+# GET http://localhost:3000/products/1
+
+
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+    "id": 5,
+    "title": "joe",
+    "age": 38
+}
